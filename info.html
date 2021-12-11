@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Jonathan Forrester</title>
+    <script src="info.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="head"><img src="untitled-2_28.png" alt="store"><br>Super Duper store</h1>
+        <div class="sidepanel">
+            <ul>
+                <li>
+                    <a href="honesty.html">Honesty</a>
+                </li>
+                <li>
+                    <a href="reflection.html">Reflection</a>
+                </li><li>
+                    <a href="info.html">Info</a>
+                </li>
+            </ul
+        ></div>
+        <div class="info">
+            <form method="post" id="signup" name="signup" class="signup" action="https://httpbin.org/post" onsubmit="return masterFunc()">
+                <div>
+                    <label for="fname">First Name:</label>
+                
+                    <input type="text" id="fname" name="fname" placeholder="Jim" tabindex="1"><br>
+                </div>    
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Halper" tabindex="2">
+                </div>
+                <div>
+                    <label for="userName">UserName</label>
+                    <input type="text" id="userName" name="user" placeholder="User Name" tabindex="3" >
+                </div>
+                <div>
+                    <label for="pass">Password</label>
+                    <input type="password" name="password" id="pass" minlength="6" tabindex="4" placeholder="Password" > 
+                </div>
+                <div>
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" minlength="8" tabindex="5" placeholder="Confirm Password" >  
+                </div>
+                <p >what your current education status:</p>
+                <div>
+                    <input type="radio" id="enrolled" name="status" value="currently enrolled">
+                    <label for="enrolled">Currently enrolled</label>
+                </div>
+               <div>
+                <input type="radio" id="grad" name="status" value="Graduated">
+                <label for="grad">Graduated</label>
+               </div>
+                <div>
+                    <input type="radio" id="drop" name="status" value="dropOut">
+                    <label for="drop">Dropped Out</label>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="18" max="60">
+                    <input type="hidden" name="lastName" id="lastName" value="Forrester" />
+                    <input type="hidden" name="studentId" id="studentId" value="102756194" />
+
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div id="error" class="error">
+        </div>
+        <footer class="footer">Jonathan Forrester <a href="https://github.com/jonnyq8/sddsWeb222finalAssignment.git">github</a>
+        </footer>  
+        
+    </div>
+    <script src="info.js"></script>
+</body>
+</html>
